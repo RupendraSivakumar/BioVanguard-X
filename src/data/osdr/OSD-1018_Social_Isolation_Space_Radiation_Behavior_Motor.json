@@ -1,0 +1,38 @@
+{
+  "filename": "OSD-1018_Social_Isolation_Space_Radiation_Behavior_Motor.json",
+  "study_id": "OSD-1018",
+  "title": "Differential Impact of Social Isolation and Space Radiation on Behavior and Motor Learning in Rats",
+  "data_source": "NASA OSDR (ALSDA)",
+  "organism": "Rattus norvegicus (Wistar strain behavioral model)",
+  "mission": "Ground Analog (15 cGy 5-ion GCRsim + Social Isolation)",
+  "iss_medbay_module": "Behavioral & Circadian Pod (Mental Health & Motor Log)",
+  "assays": [
+    "EEG Telemetry & Sleep Architecture (REM sleep % baseline vs post-stress)",
+    "Balance Beam Motor Learning Assay (35 trials over 7 days)"
+  ],
+  "protocols": {
+    "radiation_dose": "15 cGy (150 mSv) acute simplified 5-ion GCRsim combined with Social Isolation (SI)",
+    "telemetry": "Continuous EEG, gross body activity, and core body temperature"
+  },
+  "physiological_parameters": {
+    "rem_sleep_efficiency_pct": {
+      "baseline": 100,
+      "in_flight_drop": 76,
+      "yellow_threshold": 82,
+      "red_threshold": 70
+    },
+    "isolation_stress_cortisol_ng_mL": {
+      "baseline": 14.0,
+      "in_flight_peak": 26.5,
+      "yellow_threshold": 22.0,
+      "red_threshold": 30.0
+    },
+    "sensorimotor_balance_score": {
+      "baseline": 95,
+      "in_flight_drop": 78,
+      "yellow_threshold": 80,
+      "red_threshold": 70
+    }
+  },
+  "diagnostic_explanation": "Dual exposure to space radiation (150 mSv GCR) and prolonged social isolation degrades REM sleep recovery, elevates stress hormones, and impairs sensorimotor coordination."
+}

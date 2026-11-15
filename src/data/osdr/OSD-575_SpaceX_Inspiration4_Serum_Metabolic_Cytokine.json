@@ -1,0 +1,47 @@
+{
+  "filename": "OSD-575_SpaceX_Inspiration4_Serum_Metabolic_Cytokine.json",
+  "study_id": "OSD-575",
+  "title": "SpaceX Inspiration4 Blood Serum Metabolic Panel and Immune/Cardiac Cytokine Arrays (Comprehensive Metabolic Panel and Multiplex)",
+  "data_source": "NASA OSDR (ALSDA / GeneLab)",
+  "organism": "Homo sapiens",
+  "mission": "SpaceX Inspiration4 (3-day Low Earth Orbit mission, Sept 2021)",
+  "iss_medbay_module": "Bio-Scanner Bed & Vascular Echo / Ultrasound Station",
+  "assays": [
+    "Comprehensive Metabolic Panel (CMP - Beckman Coulter AU5800)",
+    "Human Cytokine/Chemokine 71-Plex Discovery Assay (HD71)",
+    "Human Cardiovascular Disease Panel 3 9-Plex Discovery Assay (HDCVD9)",
+    "NULISA-seq Inflammation Panel (124 cytokines/chemokines)"
+  ],
+  "protocols": {
+    "sample_collection": "Serum separator tubes (SSTs), centrifuged at 1300xg for 10 min; fresh serum analyzed for CMP, remaining frozen at -80C.",
+    "sample_count": 28,
+    "normalization": "Normalized by average of pre-flight baseline values across crew (n=4)."
+  },
+  "physiological_parameters": {
+    "glucose_mg_dL": {
+      "baseline": 88,
+      "in_flight_peak": 114,
+      "yellow_threshold": 105,
+      "red_threshold": 126
+    },
+    "cardiac_troponin_biomarker_fold": {
+      "baseline": 1.0,
+      "in_flight_peak": 1.45,
+      "yellow_threshold": 1.3,
+      "red_threshold": 1.8
+    },
+    "il6_inflammatory_cytokine_fold": {
+      "baseline": 1.0,
+      "in_flight_peak": 2.3,
+      "yellow_threshold": 1.8,
+      "red_threshold": 2.5
+    },
+    "potassium_mmol_L": {
+      "baseline": 4.2,
+      "in_flight_peak": 4.9,
+      "yellow_threshold": 5.0,
+      "red_threshold": 5.5
+    }
+  },
+  "diagnostic_explanation": "Acute cephalad fluid shift and microgravity stress elevate systemic inflammatory cytokines (IL-6, TNF-alpha) and transient metabolic/cardiovascular biomarkers during initial orbital adaptation."
+}

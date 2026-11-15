@@ -1,0 +1,38 @@
+{
+  "filename": "OSD-817_SANS_Optic_Nerve_Histology_Microscopy.json",
+  "study_id": "OSD-817",
+  "title": "The ex vivo human translaminar autonomous system to study spaceflight associated neuro-ocular syndrome pathogenesis (Optic Nerve, Histology and Microscopy)",
+  "data_source": "NASA OSDR (ALSDA)",
+  "organism": "Homo sapiens (ex vivo optic nerve tissue)",
+  "mission": "Ground Analog (Translaminar Autonomous System - TAS)",
+  "iss_medbay_module": "Ocular / SANS Scanner (Optic Disc Imaging)",
+  "assays": [
+    "Histological Assay (Paraphenylenediamine PPD axon staining)",
+    "Molecular Cellular Imaging (IHC, TUNEL apoptosis assay)"
+  ],
+  "protocols": {
+    "experimental_factors": "10 to 12-day sustained elevated translaminar pressure gradient (15:16 mmHg)",
+    "measurements": "Normal vs abnormal optic nerve axon density counts"
+  },
+  "physiological_parameters": {
+    "optic_disc_edema_frisen_grade": {
+      "baseline": 0,
+      "in_flight_peak": 2,
+      "yellow_threshold": 1,
+      "red_threshold": 3
+    },
+    "axon_stress_index_pct": {
+      "baseline": 2.0,
+      "in_flight_peak": 14.5,
+      "yellow_threshold": 10.0,
+      "red_threshold": 18.0
+    },
+    "visual_acuity_hyperopic_shift_D": {
+      "baseline": 0.0,
+      "in_flight_peak": 0.75,
+      "yellow_threshold": 0.5,
+      "red_threshold": 1.0
+    }
+  },
+  "diagnostic_explanation": "Prolonged translaminar pressure imbalance causes optic disc edema and axoplasmic flow stasis, resulting in hyperopic visual acuity shifts."
+}

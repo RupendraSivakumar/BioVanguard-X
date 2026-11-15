@@ -1,0 +1,38 @@
+{
+  "filename": "OSD-656_SpaceX_Inspiration4_Urine_Inflammation_Panel.json",
+  "study_id": "OSD-656",
+  "title": "SpaceX Inspiration4 Urine Inflammation Panel (Multiplex, NULISAseq)",
+  "data_source": "NASA OSDR (ALSDA)",
+  "organism": "Homo sapiens",
+  "mission": "SpaceX Inspiration4 (3-day Low Earth Orbit mission)",
+  "iss_medbay_module": "Lower Body Negative Pressure (LBNP) Cylinder & Fluid Balance",
+  "assays": [
+    "NULISAseq 200plex v1 Inflammation Panel (203 immune/inflammatory protein targets)"
+  ],
+  "protocols": {
+    "sample_collection": "Sterile urine collection cups, aliquoted and frozen at -80C.",
+    "sample_count": 22,
+    "units": "NULISA Protein Quantification (NPQ) - log2 IPC-normalized counts"
+  },
+  "physiological_parameters": {
+    "urinary_osmolarity_mOsm_kg": {
+      "baseline": 580,
+      "in_flight_peak": 840,
+      "yellow_threshold": 750,
+      "red_threshold": 900
+    },
+    "renal_inflammation_npq_delta": {
+      "baseline": 0.0,
+      "in_flight_peak": 1.65,
+      "yellow_threshold": 1.2,
+      "red_threshold": 2.0
+    },
+    "plasma_volume_reduction_pct": {
+      "baseline": 0,
+      "in_flight_peak": -12,
+      "yellow_threshold": -10,
+      "red_threshold": -15
+    }
+  },
+  "diagnostic_explanation": "Microgravity-induced diuresis and central fluid redistribution reduce total plasma volume by 10-15% and concentrate renal inflammatory proteins."
+}

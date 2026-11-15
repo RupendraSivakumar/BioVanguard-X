@@ -1,0 +1,39 @@
+{
+  "filename": "OSD-569_SpaceX_Inspiration4_Whole_Blood_CBC.json",
+  "study_id": "OSD-569",
+  "title": "Whole Blood Measurements from the SpaceX Inspiration4 Mission (RNA-seq, epitranscriptome, WGS, clonal hematopoiesis, CBC)",
+  "data_source": "NASA OSDR (GLDS-561 / LSDS-7)",
+  "organism": "Homo sapiens",
+  "mission": "SpaceX Inspiration4",
+  "iss_medbay_module": "Saliva & Blood Biomarker Analyzer",
+  "assays": [
+    "Complete Blood Count (CBC - Sysmex XN Hematology Analyzer)",
+    "Whole Genome Sequencing (WGS) & Clonal Hematopoiesis Panel",
+    "Bulk & Long-Read RNA-seq"
+  ],
+  "protocols": {
+    "sample_collection": "4mL whole blood in K2 EDTA tubes for CBC; 2.5mL in PAXgene tubes for RNA-seq.",
+    "doi": "10.26030/e0rx-sh52"
+  },
+  "physiological_parameters": {
+    "wbc_count_10e3_uL": {
+      "baseline": 6.4,
+      "in_flight_peak": 9.8,
+      "yellow_threshold": 9.5,
+      "red_threshold": 11.5
+    },
+    "neutrophil_to_lymphocyte_ratio": {
+      "baseline": 1.8,
+      "in_flight_peak": 3.6,
+      "yellow_threshold": 3.0,
+      "red_threshold": 4.5
+    },
+    "hemoglobin_g_dL": {
+      "baseline": 14.5,
+      "in_flight_peak": 15.8,
+      "yellow_threshold": 16.0,
+      "red_threshold": 17.5
+    }
+  },
+  "diagnostic_explanation": "Spaceflight stress triggers acute leukocyte mobilization (elevated WBC and neutrophil-to-lymphocyte ratio) alongside hemoconcentration from plasma volume loss."
+}

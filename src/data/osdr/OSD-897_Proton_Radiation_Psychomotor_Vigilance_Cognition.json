@@ -1,0 +1,38 @@
+{
+  "filename": "OSD-897_Proton_Radiation_Psychomotor_Vigilance_Cognition.json",
+  "study_id": "OSD-897",
+  "title": "Deficits in Sustained Attention and Changes in Dopaminergic Protein Levels following Exposure to Proton Radiation Are Related to Basal Dopaminergic Function",
+  "data_source": "NASA OSDR (ALSDA)",
+  "organism": "Rattus norvegicus",
+  "mission": "Ground Analog (Solar Particle Event Proton Irradiation)",
+  "iss_medbay_module": "Autonomous AI Neural Sleep & Cognition Modulator",
+  "assays": [
+    "Psychomotor Vigilance Test (PVT - Sustained Attention & Reaction Time)",
+    "Western Blot Dopaminergic Protein Quantification (Parietal & Frontal Cortex)"
+  ],
+  "protocols": {
+    "radiation_type": "Solar Proton Irradiation (Low-Dose & High-Dose regimens)",
+    "cognitive_metric": "PVT attention lapses and dopaminergic signaling stability"
+  },
+  "physiological_parameters": {
+    "pvt_reaction_time_ms": {
+      "baseline": 245,
+      "in_flight_peak": 340,
+      "yellow_threshold": 300,
+      "red_threshold": 360
+    },
+    "attention_lapses_per_session": {
+      "baseline": 1,
+      "in_flight_peak": 7,
+      "yellow_threshold": 4,
+      "red_threshold": 8
+    },
+    "dopaminergic_signaling_index": {
+      "baseline": 100,
+      "in_flight_drop": 79,
+      "yellow_threshold": 82,
+      "red_threshold": 72
+    }
+  },
+  "diagnostic_explanation": "Proton radiation exposure disrupts frontal/parietal dopaminergic pathways, causing measurable reaction-time slowdowns and sustained attention lapses on the Psychomotor Vigilance Test."
+}

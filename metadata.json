@@ -1,0 +1,6 @@
+{
+  "name": "ISS Medical Bay — NASA OSDR 3D Diagnostics",
+  "description": "Interactive 3D International Space Station Medical Bay driven by 10 NASA OSDR spaceflight studies with low-latency WebSocket telemetry, causal cascade diagnostics, and real-time countermeasures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

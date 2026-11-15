@@ -1,0 +1,38 @@
+{
+  "filename": "OSD-530_JAXA_ISS_Astronaut_CellFree_RNA_Liquid_Biopsy.json",
+  "study_id": "OSD-530",
+  "title": "Cell-free RNA analysis of plasma samples collected from six astronauts in JAXA Cell-Free Epigenome (CFE) Study",
+  "data_source": "NASA OSDR / JAXA",
+  "organism": "Homo sapiens (6 ISS Astronauts)",
+  "mission": "International Space Station (>120 days long-duration spaceflight)",
+  "iss_medbay_module": "Bio-Scanner Bed (Full-Body Cellular & Mitochondrial Scan)",
+  "assays": [
+    "Plasma Cell-Free RNA Sequencing (cfRNA RNA-Seq Illumina)",
+    "CD36+ Extracellular Mitochondria (exMT) Surface Marker Profiling"
+  ],
+  "protocols": {
+    "duration": ">120 days on ISS (pre-flight, in-flight, post-flight longitudinal sampling)",
+    "key_finding": "Microgravity induces systemic extracellular mitochondria (exMT) release and mitochondrial gene dysregulation."
+  },
+  "physiological_parameters": {
+    "circulating_exmt_cfrna_fold": {
+      "baseline": 1.0,
+      "in_flight_peak": 2.8,
+      "yellow_threshold": 2.0,
+      "red_threshold": 3.0
+    },
+    "oxidative_stress_transcript_score": {
+      "baseline": 15,
+      "in_flight_peak": 48,
+      "yellow_threshold": 35,
+      "red_threshold": 55
+    },
+    "cellular_homeostasis_index": {
+      "baseline": 96,
+      "in_flight_drop": 74,
+      "yellow_threshold": 80,
+      "red_threshold": 70
+    }
+  },
+  "diagnostic_explanation": "Extended microgravity (>120 days) disrupts mitochondrial homeostasis across internal organs, releasing cell-free mitochondrial RNA into bloodstream."
+}

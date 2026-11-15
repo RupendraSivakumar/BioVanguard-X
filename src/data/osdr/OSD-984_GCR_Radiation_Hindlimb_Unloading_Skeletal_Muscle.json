@@ -1,0 +1,37 @@
+{
+  "filename": "OSD-984_GCR_Radiation_Hindlimb_Unloading_Skeletal_Muscle.json",
+  "study_id": "OSD-984",
+  "title": "Low-dose Simulated Galactic Cosmic Radiation Exposure After Hindlimb Unloading Has Long-term Impact on Skeletal Muscle Metabolic Proteins",
+  "data_source": "NASA OSDR (ALSDA)",
+  "organism": "Mus musculus (Spaceflight Analog Model)",
+  "mission": "Ground Analog (Simplified 5-Ion Galactic Cosmic Ray GCRsim + Unloading)",
+  "iss_medbay_module": "Radiation & Life Support Wall Console + Countermeasure Rehab Terminal",
+  "assays": [
+    "Quantitative Proteomics Mass Spectrometry (Orbitrap Exploris 480)"
+  ],
+  "protocols": {
+    "radiation_factor": "Simplified Galactic Cosmic Ray Simulation (HZE Heavy Ions >= 0.25 Gy / 250 mSv) + Microgravity Unloading",
+    "recovery_window": "9-month longitudinal muscle mitochondria recovery tracking"
+  },
+  "physiological_parameters": {
+    "cumulative_gcr_dose_mSv": {
+      "baseline": 0,
+      "mission_alert": 250,
+      "yellow_threshold": 150,
+      "red_threshold": 300
+    },
+    "skeletal_muscle_mass_loss_pct": {
+      "baseline": 0.0,
+      "in_flight_drop": -8.5,
+      "yellow_threshold": -5.0,
+      "red_threshold": -10.0
+    },
+    "bone_mineral_density_loss_pct_per_mo": {
+      "baseline": 0.0,
+      "in_flight_drop": -1.4,
+      "yellow_threshold": -1.0,
+      "red_threshold": -1.8
+    }
+  },
+  "diagnostic_explanation": "Combined microgravity unloading and Galactic Cosmic Ray (HZE heavy ion) exposure impairs muscle mitochondrial protein synthesis and accelerates musculoskeletal atrophy."
+}
